@@ -3,6 +3,8 @@
 FTRACE=/sys/kernel/debug/tracing
 workload=vsx
 
+rm -fr output*txt
+
 
 # ==  complete trace  ===
 echo 0 > $FTRACE/trace
